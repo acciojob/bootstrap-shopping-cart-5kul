@@ -1,12 +1,10 @@
-/*  your css code here. If applicable */
-   .block-heading {
+ body {
+            background-color: #eee;
+        }
+        .block-heading {
             color: #3b99e0;
             text-align: center;
             margin-bottom: 40px;
-        }
-        .product {
-            border-bottom: 1px solid #dcdcdc;
-            padding: 15px 0;
         }
         .summary {
             background-color: #f7fbff;
@@ -23,4 +21,30 @@
             background-color: #3b99e0;
             color: white;
             width: 100%;
+        }
+        .product {
+            border-bottom: 1px solid #dcdcdc;
+            padding: 20px 0;
+        }
+        .product .price {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .product .quantity-input {
+            width: 60px;
+        }
+        .cart-container {
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+        }
+        .product-title {
+            color: #3b99e0;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .description {
+            color: gray;
+            font-size: 0.9rem;
         }
